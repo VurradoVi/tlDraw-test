@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <div style={{ position: "fixed", inset: 0 }}>
-      <div style={{ position: "absolute", top: 70, left: 20, zIndex: 10 }}>
+      <div style={{ position: "absolute", top: 75, left: 20, zIndex: 10 }}>
         <button onClick={addCustomSquare} style={{ marginRight: 10 }}>Add Custom Square with Icon</button>
         <button onClick={addCustomCross}>Add Custom Cross</button>
       </div>
